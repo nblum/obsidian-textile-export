@@ -1,0 +1,9 @@
+{
+  "id": "redmine-export",
+  "name": "Redmine Export",
+  "version": "0.1.0",
+  "minAppVersion": "1.8.7",
+  "description": "Adds \"Export to Redmine\" to the file context menu, copying the note as Redmine wiki (Textile) markup.",
+  "author": "Nico Blum",
+  "isDesktopOnly": false
+}

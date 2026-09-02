@@ -1,0 +1,8 @@
+.claude/
+.idea/
+coverage/
+data.json
+main.js
+node_modules/
+*.log
+.DS_Store
