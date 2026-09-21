@@ -1,0 +1,16 @@
+Plain paragraph with *bold*, _italic_ and _*bold italic*_ text.
+
+Underscore variants: *bold*, _italic_ and _*bold italic*_.
+
+Strikethrough: -removed- and inline code: @const answer = 42;@.
+
+Code protects markup: @**not bold** and _not italic_@.
+
+Mixed run: *bold* followed by _italic_ followed by -strike- on one line.
+
+A "link":https://example.com/some_path_here and a wikilink Another Note and an alias.
+
+bq. Quoted line one
+quoted line two with *bold*
+
+Text after the quote.

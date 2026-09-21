@@ -1,0 +1,18 @@
+{
+  "menu.export": "Nach Textile exportieren",
+  "notice.exportFailed": "Textile Export ist fehlgeschlagen. Details stehen in der Konsole.",
+  "notice.exported": "„{name}“ wurde als Textile-Markup kopiert.",
+  "settings.about.description": "Textile Export wird von Nico Blum entwickelt.",
+  "settings.about.feedback": "Feedback geben",
+  "settings.about.name": "Über mich",
+  "settings.about.star": "GitHub-Stern",
+  "settings.about.support": "Wenn dir das Plugin gefällt, freue ich mich über einen GitHub-Stern und dein Feedback.",
+  "settings.about.website": "Webseite",
+  "settings.language.auto": "Automatisch",
+  "settings.language.de": "Deutsch",
+  "settings.language.description": "Verwendet Deutsch für deutsche Obsidian-Sprachen und sonst Englisch oder legt die Sprache explizit fest.",
+  "settings.language.en": "English",
+  "settings.language.name": "Sprache",
+  "settings.thumbnails.description": "Schreibt lokale Bilder als {{thumbnail(datei.png)}}-Makro statt als Textile-Bild. Redmine löst nur angehängte Dateien auf; Bilder mit URL bleiben normale Textile-Bilder.",
+  "settings.thumbnails.name": "Bilder als Redmine-Thumbnails exportieren"
+}

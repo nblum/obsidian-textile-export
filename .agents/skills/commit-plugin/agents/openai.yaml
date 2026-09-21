@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commit plugin Changes"
+  short_description: "Creates focused plugin commits"
+  default_prompt: "Use $commit-plugin-diff to commit the current plugin changes."

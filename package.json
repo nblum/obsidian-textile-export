@@ -1,15 +1,17 @@
 {
-  "name": "redmine-export",
+  "name": "textile-export",
   "version": "0.1.0",
-  "description": "Adds \"Export to Redmine\" to the file context menu, copying the note as Redmine wiki (Textile) markup.",
+  "description": "Adds \"Export to Textile\" to the file context menu, copying the note as Textile markup.",
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "build": "npm run typecheck && node esbuild.config.mjs production",
+    "build": "npm run validate:manifest && npm run typecheck && node esbuild.config.mjs production",
     "dev": "node esbuild.config.mjs",
     "lint": "eslint .",
+    "release": "node scripts/release.mjs",
     "test": "node --test --experimental-strip-types tests/*.test.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "validate:manifest": "node scripts/validate-manifest.mjs"
   },
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.7.2",

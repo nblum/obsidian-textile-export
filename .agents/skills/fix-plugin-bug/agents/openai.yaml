@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix plugin Bug"
+  short_description: "Fixes a bug with a regression test and changelog entry"
+  default_prompt: "Use $fix-plugin-diff-bug to fix <describe the bug> in plugin."

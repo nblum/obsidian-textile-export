@@ -1,0 +1,30 @@
+h1. Release 1.2
+
+Intro paragraph with *bold*, _italic_ and @code@, see the roadmap.
+
+h2. Changes
+
+* Added export
+** to the file menu
+** to the command palette
+* Fixed -crashes- a crash
+
+h2. Steps
+
+# Install the plugin
+# Open a note
+# Choose *Export to Textile*
+
+h2. Overview
+
+|_. Area |_. Result |
+| Export | _works_ |
+| Images | !shots/menu_1.png(Screenshot)! |
+
+bq. Note: wikilinks lose their target.
+
+<pre><code class="ts">
+const value = "**untouched**";
+</code></pre>
+
+Closing line with a "link":https://example.com/end_of_note.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Obsidian Plugin Release"
+  short_description: "Prepares a release for manual publishing"
+  default_prompt: "Use $publish-obsidian-plugin-release to prepare plugin version x.y.z and provide the release command."

@@ -1,0 +1,18 @@
+Markdown image with a width: !{width:300px}images/diagram.png(Diagram)!
+
+Markdown image with width and height: !{width:300px;height:200px}images/diagram.png(Diagram)!
+
+Size without alt text: !{width:150px}images/plain.png!
+
+Obsidian embed: !images/embed.png!
+
+Obsidian embed with a width: !{width:400px}images/embed.png!
+
+Obsidian embed with alt text and a width: !{width:400px}images/embed.png(Embed alt)!
+
+Embeds of notes are not images: !Some Note
+
+Size in a table:
+
+|_. Preview |
+| !{width:80px}cell.png! |

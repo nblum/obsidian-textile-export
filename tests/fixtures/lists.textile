@@ -1,0 +1,42 @@
+Unordered with dashes:
+
+* alpha
+* beta
+* gamma
+
+Unordered with asterisks:
+
+* alpha
+* beta
+
+Unordered with plus signs:
+
+* alpha
+* beta
+
+Ordered:
+
+# first
+# second
+# third
+
+Nested unordered:
+
+* level 1
+** level 2
+*** level 3
+** level 2 again
+* level 1 again
+
+Nested ordered:
+
+# step one
+## sub step
+### sub sub step
+# step two
+
+List items with formatting:
+
+* *bold* item
+* _italic_ item with @code@
+* item with a "link":https://example.com/a_b

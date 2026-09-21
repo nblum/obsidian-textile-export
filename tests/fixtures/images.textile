@@ -1,0 +1,24 @@
+Image with alt text:
+
+!images/architecture.png(Architecture diagram)!
+
+Image without alt text:
+
+!images/plain.png!
+
+Image with a title:
+
+!images/logo.png(Logo)!
+
+Image inline in a sentence !icon_small.png(icon)! between words.
+
+Image with an underscore path and emphasis around: _see_ !charts/q1_report.png(Chart)! *now*
+
+* list item with image !thumb.png(thumb)!
+
+|_. Preview |_. Name |
+| !cell.png(Cell image)! | Cell |
+
+Image from a URL:
+
+!https://example.com/media/pic_1.png(Remote)!

@@ -1,0 +1,13 @@
+Bullets inside an ordered list:
+
+# step
+#* detail
+#* another detail
+# next step
+
+Ordered items inside a bullet list:
+
+* topic
+*# first
+*# second
+* other topic
