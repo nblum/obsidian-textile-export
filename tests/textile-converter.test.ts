@@ -157,4 +157,12 @@ describe("convertMarkdownToTextile", () => {
 		assert.equal(convertMarkdownToTextile("![[a.png|50]]"), "!{width:50px}a.png!");
 		assert.equal(convertMarkdownToTextile("![[a.png|50]]", { imagesAsThumbnails: false }), "!{width:50px}a.png!");
 	});
+
+	test("normalizes CRLF line endings so Windows notes convert like LF notes", () => {
+		// Inline strings keep this independent of how git checks out the fixture files.
+		const input = "---\r\ntitle: Foo\r\n---\r\n# Title\r\n\r\n- a\r\n- b\r\n\r\n| A | B |\r\n| --- | --- |\r\n| 1 | 2 |";
+		const expected = "h1. Title\n\n* a\n* b\n\n|_. A |_. B |\n| 1 | 2 |";
+		assert.equal(convertMarkdownToTextile(input), expected);
+		assert.equal(convertMarkdownToTextile(input), convertMarkdownToTextile(input.replace(/\r\n/g, "\n")));
+	});
 });

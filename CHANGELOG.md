@@ -4,6 +4,8 @@ All notable changes to Textile Export are documented here.
 
 ## [Unreleased]
 
+- fixes conversion and test on with CRLF line endings
+
 ## [0.2.0] - 2026-09-21
 
 ### Added
