@@ -1,6 +1,6 @@
 {
   "name": "textile-export",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Adds \"Export to Textile\" to the file context menu, copying the note as Textile markup.",
   "main": "main.js",
   "type": "module",

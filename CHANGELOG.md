@@ -4,6 +4,8 @@ All notable changes to Textile Export are documented here.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-21
+
 ### Added
 
 - Added German and English translations with automatic Obsidian-language detection and a manual language setting.
